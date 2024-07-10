@@ -1,0 +1,6 @@
+@Splitit_HostAddress = http://localhost:5077
+
+GET {{Splitit_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
