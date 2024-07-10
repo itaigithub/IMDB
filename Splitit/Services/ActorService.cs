@@ -45,7 +45,7 @@ namespace Splitit.Services
 
         public async Task RemoveAll(bool save)
         {
-            _context.Actors.ExecuteDeleteAsync();
+            await _context.Actors.ExecuteDeleteAsync();
             if (save)
             {
                 await _context.SaveChangesAsync();
