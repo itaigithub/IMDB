@@ -1,0 +1,22 @@
+1. Solution Execution:
+
+
+   - The solution provided did not run as expected due to SQL Server not being installed.
+   - There was a specific requirement to implement in-memory storage, which was not addressed in your solution.
+
+
+
+2. Get Actor Functionality:
+
+
+   - The implementation of the get actor functionality was not optimal.
+   - Your approach involved loading all actors into memory before applying filters, which could lead to performance issues with large datasets.
+   - A more efficient approach would be to apply filters at the data source level to minimize memory usage and improve performance.
+
+
+
+3. Rank Validation:
+
+
+   - The solution lacked proper rank validation in the add and update operations.
+   - Implementing validation for the rank field is crucial to maintain data integrity and prevent invalid entries.
